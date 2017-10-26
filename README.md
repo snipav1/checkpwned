@@ -1,6 +1,6 @@
 # checkpwned
 
-This script will verify if an email or an email list is pwned via haveibeenpwned.com api and 
+Checkpwned will verify if an email or an email list is pwned via haveibeenpwned.com api and 
 send an email to target email or email list.
 
 Setup Instructions:
