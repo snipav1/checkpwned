@@ -1,0 +1,4 @@
+# List of emails - Examples:
+
+foo@bar.com
+cool@awesome.com
