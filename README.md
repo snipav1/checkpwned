@@ -8,8 +8,9 @@ Setup Instructions:
 1. 
         
         sudo pip install -r requirements.txt
+        
     
-2. Fill in necessary email address info in utils.py and checkpwned.py
+2.      Fill in necessary email address info in utils.py and checkpwned.py
 
 Usage: 
 
