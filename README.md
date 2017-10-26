@@ -1,7 +1,7 @@
 # checkpwned
 
 This script will verify if an email or an email list is pwned via haveibeenpwned.com api and 
-send an email to target email or email list. Very useful if setup as a cronjob as a weekly job.
+send an email to target email or email list.
 
 Setup Instructions:
 
@@ -15,3 +15,15 @@ Usage:
         
     email list: 
     python checkpwned.py -l emails.txt
+
+Optional:
+
+Very useful if setup as a cronjob as a weekly job.
+
+1. Run command:
+    
+        sudo crontab -e
+
+2. Insert cronjob:
+
+        5 5 * * 1 /usr/bin/python /<path>/checkpwned.py -l=/<path>/emails.txt > /tmp/checkpwned.log 2>&1
