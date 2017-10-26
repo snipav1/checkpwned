@@ -46,7 +46,7 @@ PWNED_URL = "https://haveibeenpwned.com/api/breachedaccount/"
 EMAIL = ''
 
 LOG_NAME = 'checkpwned-{}_{}_{}-{}:{}:{}.txt'.format(now.month, now.day, now.year, now.hour, now.minute, now.second)
-LOG_PATH = '/media/windowsshare/checkpwned_logs/{}'.format(LOG_NAME)
+LOG_PATH = 'checkpwned_logs/{}'.format(LOG_NAME)
 
 logging.basicConfig(filename=LOG_PATH,
                     filemode='w',
