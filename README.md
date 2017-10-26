@@ -22,7 +22,7 @@ Usage:
 
 Optional:
 
-Very useful if setup as a cronjob as a weekly job.
+Very useful if setup as a weekly cronjob.
 
 1. Run command:
     
