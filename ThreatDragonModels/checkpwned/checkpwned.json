@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "checkpwned",
+    "owner": "ehernandez",
+    "description": "This system is used to check emails against haveibeenpwned api"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "mrosonni"
+  }
+}
