@@ -7,7 +7,6 @@ import time
 import logging
 import datetime
 import os
-#hello world
 
 """ 
     @author: Emmanuel Hernandez
